@@ -1,0 +1,108 @@
+body {
+  background-color: #ff80ab; /* pink */
+  font-family: 'Quicksand', sans-serif;
+  padding: 40px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ff80ab; /* pink */
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #64b5f6; /* light blue */
+}
+
+.established {
+  font-style: italic;
+  color: #555;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 90%;
+  background-color: #fff9c4; /* light yellow */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  max-width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #ffcc80; /* pastel orange */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffb74d;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 15px;
+}
+
+.item img {
+  width: 40px;
+  height: 40px;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.note {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
